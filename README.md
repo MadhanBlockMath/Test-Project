@@ -45,6 +45,42 @@ Find and fix any parts of this project that are not implemented.
 Keep it simple, clean, and functional
 
 
+# Test-Project
+
+## 🚀 How to Run Locally
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/MadhanBlockMath/Test-Project.git
+cd Test-Project
+```
+
+---
+
+### 2. Start Backend
+```bash
+cd server
+npm install
+node server.js
+```
+- Runs on: **http://localhost:3099**
+- API Endpoint: **http://localhost:3099/api/products**
+
+---
+
+### 3. Start Frontend
+Open a new terminal:
+```bash
+npm install
+npm run dev
+```
+- Runs on: **http://localhost:5173**
+
+---
+
+✅ Done! The app should now be running with the backend serving products and the frontend displaying them.
+
+
 
 
 
